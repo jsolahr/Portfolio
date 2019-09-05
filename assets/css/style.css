@@ -1,0 +1,23 @@
+h2 {
+  padding-top: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+.card {
+  box-shadow: 5px 10px 18px rgb(184, 182, 182);
+  border: white 15px solid;
+  opacity: 1;
+  transition: 0.3s;
+}
+.fa {
+  color: black;
+}
+.card:hover {opacity: 0.6}
+
+footer {
+  font-size: 30px;
+  background-color: white;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  color: black;
+  }
