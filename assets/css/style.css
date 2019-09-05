@@ -12,7 +12,9 @@ h2 {
 .fa {
   color: black;
 }
-.card:hover {opacity: 0.6}
+.card:hover {
+  opacity: 0.6
+}
 
 footer {
   font-size: 30px;
