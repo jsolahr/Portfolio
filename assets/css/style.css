@@ -9,14 +9,31 @@ h2 {
   opacity: 1;
   transition: 0.3s;
 }
+.card:hover {
+  opacity: 0.6
+}
+#profile {
+  background-color: white;
+}
+#profile:hover {
+  opacity: 4;
+  transition: none;
+}
+#contactPage {
+background-color: white;
+}
+form {
+  margin: 20px;
+}
+#contactPage:hover {
+  opacity: 4;
+  transition: none;
+}
 .fa {
   color: black;
 }
 .fab {
   color: black;
-}
-.card:hover {
-  opacity: 0.6
 }
 footer {
   font-size: 30px;
