@@ -1,0 +1,29 @@
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    margin-top: 280px;
+    text-align: center;
+}
+h4 {
+    color: Gray;
+    text-align: center;
+    font-size: 25px;
+}
+h4:hover {
+ color: black;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
