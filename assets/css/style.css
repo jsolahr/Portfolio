@@ -42,6 +42,17 @@ footer {
   font-family: 'Sacramento', cursive;
   color: black;
   }
-button{
+
+.btn {
+  background-color: rgb(190, 107, 107);
+  border: 1px solid white;
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(216, 196, 196);
+  border: 1px solid white;
+  color: white;
+}
+#linkedIn {
   border: none;
 }
