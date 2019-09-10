@@ -56,3 +56,10 @@ footer {
 #linkedIn {
   border: none;
 }
+#links {
+  text-align: center;
+}
+#about-button {
+  margin-left: 250px;
+  text-align: center;
+}
