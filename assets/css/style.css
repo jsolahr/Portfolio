@@ -43,6 +43,7 @@ h3 {
 }
 #contactMe {
   text-indent: 20px;
+  padding-top:10px;
 }
 footer {
   font-size: 30px;
@@ -72,5 +73,4 @@ footer {
   font-size: 20px;
   margin-left: 250px;
   text-align: center;
-  padding: 15px 20px 15px 20px;
 }
