@@ -3,8 +3,22 @@ h2 {
   font-family: 'Sacramento', cursive;
   font-size: 50px;
 }
+h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+  font-weight: solid;
+}
 h4 {
-font-size: 20px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+}
+h5{
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+
+}
+#box {
+  background-color: white;
 }
 .card {
   box-shadow: 5px 10px 18px rgb(184, 182, 182);
@@ -32,9 +46,6 @@ form {
   opacity: 4;
   transition: none;
 }
-h3 {
-  font-family: 'Heebo', sans-serif;
-}
 .fa {
   color: black;
 }
@@ -49,10 +60,10 @@ h3 {
   padding-top:10px;
 }
 footer {
-  font-size: 25px;
+  font-size: 15px;
+  padding: 15px;
   background-color: white;
   text-align: center;
-  font-family: 'Sacramento', cursive;
   color: black;
   }
 
@@ -76,6 +87,9 @@ footer {
   font-size: 20px;
   margin-left: 250px;
   text-align: center;
+  padding-right: 25px;
+  padding-left: 25px
+
 }
 a {
   color: black;
@@ -85,4 +99,8 @@ a {
 a:hover {
 color: black;
 text-decoration: none;
+}
+#pro {
+  background-color: rgb(196, 183, 183);
+  color: white;
 }
