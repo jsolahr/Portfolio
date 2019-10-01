@@ -7,6 +7,8 @@ h2 {
 h3 {
     font-family: 'Heebo', sans-serif;
     margin-top: 20px;
+    text-align: center; 
+    line-height: 50px
 }
 h4 {
     color: rgb(190, 107, 107);
