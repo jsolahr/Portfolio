@@ -2,13 +2,12 @@ h2 {
     font-family: 'Sacramento', cursive;
     font-size: 80px;
     margin-top: 280px;
-    text-align: center;
+    text-align: center
 }
 h3 {
     font-family: 'Heebo', sans-serif;
-    margin-top: 20px;
     text-align: center; 
-    line-height: 50px
+    line-height: 10px;
 }
 h4 {
     color: rgb(190, 107, 107);
@@ -32,4 +31,20 @@ a:hover {
 }
 a:active {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  h4 {
+    color: rgb(190, 107, 107);
+    text-align: center;
+    font-size: 25px;
+}
+  h3 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center; 
+    line-height: 15px;
 }
