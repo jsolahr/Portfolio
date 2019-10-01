@@ -1,3 +1,7 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
 h2 {
   padding-top: 20px;
   font-family: 'Sacramento', cursive;
@@ -21,6 +25,7 @@ h5{
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 25px;
+  float: left;
 }
 .card {
   box-shadow: 5px 10px 18px rgb(184, 182, 182);
@@ -55,13 +60,12 @@ form {
 footer {
   font-size: 15px;
   padding: 12px;
-  background-color: white;
   text-align: center;
-  color: black;
+  color: white;
   }
 
 .btn {
-  background-color: rgb(190, 107, 107);
+  background-color: rgb(173, 151, 151);
   border: 1px solid white;
   color: white;
 }
@@ -70,8 +74,26 @@ footer {
   border: 1px solid white;
   color: white;
 }
+#btn2 {
+  background-color: white;
+  border: 1px solid rgb(156, 143, 143);
+} 
+/*rgb(192, 172, 172) */
+#envelope {
+  color: black;
+  font-size: 25px;
+}
 #linkedIn {
+  color: black;
+  font-size: 25px;
+}
+#git {
+  font-size: 28px; 
+  color:  black;
+}
+button {
   border: none;
+  color: white;
 }
 #links {
   text-align: center;
@@ -82,7 +104,6 @@ footer {
   text-align: center;
   padding-right: 25px;
   padding-left: 25px
-
 }
 a {
   color: black;
@@ -93,7 +114,22 @@ a:hover {
 color: black;
 text-decoration: none;
 }
-#pro {
-  background-color: rgb(196, 183, 183);
+#foot {
+  background-color: rgb(173, 151, 151);
   color: white;
+}
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
 }
