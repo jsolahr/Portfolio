@@ -125,11 +125,20 @@ text-decoration: none;
   padding: 0;
   border-radius: 50%;
 }
+.card-img {
+  height: 400px;
+  width:325px; 
+  margin: 25px;
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
 
 #about-button {
   margin-left: 70px;
-
+}
+.card-img {
+  width: 250px;
+  height: 300px;
+  margin-left: 32px;
 }
 }
