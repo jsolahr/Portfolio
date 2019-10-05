@@ -79,16 +79,16 @@ footer {
 } 
 /*rgb(192, 172, 172) */
 #envelope {
-  color: black;
+  color: rgb(78, 74, 74);
   font-size: 25px;
 }
 #linkedIn {
-  color: black;
+  color: rgb(78, 74, 74);
   font-size: 25px;
 }
 #git {
   font-size: 28px; 
-  color:  black;
+  color: rgb(78, 74, 74);
 }
 button {
   border: none;
@@ -126,3 +126,10 @@ text-decoration: none;
   border-radius: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+
+#about-button {
+  margin-left: 70px;
+
+}
+}
