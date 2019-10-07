@@ -1,19 +1,21 @@
 h2 {
     font-family: 'Sacramento', cursive;
-    font-size: 80px;
+    font-size: 90px;
     margin-top: 280px;
     text-align: center
 }
 h3 {
     font-family: 'Heebo', sans-serif;
+    font-size: 30px;
     text-align: center; 
     line-height: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 h4 {
     color: rgb(190, 107, 107);
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    margin-top: 30px;
 }
 h4:hover {
  color: rgb(189, 148, 148);
