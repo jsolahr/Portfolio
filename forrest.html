@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jessica Sola Portfolio</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--Navigation Bar-->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container" id="header">
+        <h2>Jessica Sola</h2>
+        <!--Title-->
+        <a class="navbar-brand">
+        </a>
+
+        <!--Toggle-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <!--Links-->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <hr>
+
+      <br>
+      <a href="projects.html">
+        <h5 style="font-size: 35px;">FORREST GUMP</h5>
+        <h5 style="font-size: 25px;">Trivia Game</h5>
+      </a>
+      <br>
+      <br>
+      <div class="containter">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+                <h3>JavaScript & Timers</h3>
+                <p style="font-size: 15px;">Forrest Gump is one of my all time favorite movies. I can incorporate a
+                  movie quote in most every day conversations...
+                  and "that's all I have to say about that..." so I was excited to create a trivia game dedicated to my favorite movie!</p>
+       
+                <p style="font-size: 15px;">The goal of this assignment was to create a trivia quiz that shows only one question at
+                  a time until the player answers it or their time runs out.
+                  If the player selects the correct answer, the user is notified if the answer was correct or incorrect. </p>
+                  <p style="font-size: 15px;">
+                  I used Bootstrap for my User Interface and incorporated their button-group for my Forrest Gump questions. This created a simple format for the user to select questions from.
+                  To build the questions, I set an array of objects and looped through each question with an on'click listener.  
+                  I set the timer interval to 15 seconds to allow the user time to think through the question by using the setInterval function. However if they didn't answer it fast enough, the computer would move on to the next question object. 
+             
+                </p>
+              </div>
+          <div class="col-md-5">
+            <div class="card">
+              <div class="card-body">
+                <a href="https://jsolahr.github.io/TriviaGame" target="_blank"><img
+                    src="assets/images/Minimalist-Showcase-Project-Presentation.png" class="card-img-top"
+                    alt="trivia game">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+
+
+          <!--  Scripts-->
+          <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+          <script src="js/init.js"></script>
+
+</body>
+
+</html>
