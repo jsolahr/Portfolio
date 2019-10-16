@@ -141,9 +141,7 @@ font-size: 15px;
 #form-button {
     font-size: 20px;
   }
-#forrestBox {
- 
-  }
+
 @media only screen and (max-width: 667px) {
 
   #about-button {
@@ -161,5 +159,9 @@ font-size: 15px;
   }
   #form-button {
     margin-left: 110px;
+  }
+  video {
+    height: 500px;
+    width: 500px;
   }
 }
