@@ -1,6 +1,6 @@
 html, body {
-  width: 100%;
-  height: 100%;
+  height:100%;
+  width:100%;
 }
 h2 {
   padding-top: 20px;
@@ -25,7 +25,6 @@ h5{
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 25px;
-
 }
 .card {
   box-shadow: 5px 10px 18px rgb(184, 182, 182);
@@ -43,27 +42,18 @@ h5{
   opacity: 4;
   transition: none;
 }
-#contactPage {
-background-color: white;
-}
-form {
-  margin: 20px;
-}
+
 #contactPage:hover {
   opacity: 4;
   transition: none;
+}
+form {
+  margin: 20px;
 }
 #contactMe {
   text-indent: 20px;
   padding-top:10px;
 }
-footer {
-  font-family: 'Sacramento', cursive;
-  font-size: 25px;
-  padding: 12px;
-  text-align: center;
-  color: white;
-  }
 .btn {
   background-color: rgb(173, 151, 151);
   border: 1px solid white;
@@ -75,20 +65,29 @@ footer {
   color: white;
 }
 #btn2 {
-  background-color: white;
-  border: 1px solid rgb(207, 194, 194);
+  background-color: rgb(168, 145, 145);
+  border: 1px solid rgb(201, 184, 184);
 } 
 #envelope {
-  color: rgb(116, 108, 108);
-  font-size: 25px;
+  color:white;
+  font-size: 20px;
+}
+#envelope:hover{
+  color:gray;
 }
 #linkedIn {
-  color: rgb(116, 108, 108);
-  font-size: 25px;
+  color:white;
+  font-size: 20px;
+}
+#linkedIn:hover{
+  color:gray;
 }
 #git {
-  font-size: 28px; 
-  color: rgb(116, 108, 108);
+  color:white;
+  font-size: 20px;
+}
+#git:hover {
+  color:gray;
 }
 button {
   border: none;
@@ -100,7 +99,6 @@ button {
 #about-button {
   font-size: 20px;
   text-align: center;
-
 }
 a {
   color: black;
@@ -111,10 +109,12 @@ a:hover {
 color: black;
 text-decoration: none;
 }
-#foot {
-  background-color: rgb(173, 151, 151);
-  color: white;
+
+footer {
   font-family: 'Sacramento', cursive;
+  font-size: 25px;
+  padding: 12px;
+  text-align: center;
 }
 .btn-circle {
   width: 45px;
@@ -141,6 +141,10 @@ font-size: 15px;
 #form-button {
     font-size: 20px;
   }
+  #page {
+    position: relative;
+    min-height: 50vh;
+  }
 
 @media only screen and (max-width: 667px) {
 
@@ -164,4 +168,5 @@ font-size: 15px;
     height: 500px;
     width: 500px;
   }
+ 
 }
