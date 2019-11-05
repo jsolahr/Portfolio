@@ -60,7 +60,7 @@ form {
   color: white;
 }
 .btn:hover {
-  background-color: rgb(216, 196, 196);
+  background-color: rgb(238, 228, 228);
   border: 1px solid white;
   color: white;
 }
@@ -68,26 +68,30 @@ form {
   background-color: rgb(168, 145, 145);
   border: 1px solid rgb(201, 184, 184);
 } 
+#btn2:hover {
+  background-color: rgb(194, 181, 181);
+  border: 1px solid rgb(201, 184, 184);
+} 
 #envelope {
   color:white;
-  font-size: 20px;
+  font-size: 50px;
 }
 #envelope:hover{
-  color:gray;
+  color:rgb(97, 66, 66);
 }
 #linkedIn {
   color:white;
-  font-size: 20px;
+  font-size: 50px;
 }
 #linkedIn:hover{
-  color:gray;
+  color:rgb(97, 66, 66);
 }
 #git {
   color:white;
-  font-size: 20px;
+  font-size: 50px;
 }
 #git:hover {
-  color:gray;
+  color:rgb(97, 66, 66);
 }
 button {
   border: none;
@@ -117,9 +121,9 @@ footer {
   text-align: center;
 }
 .btn-circle {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
+  width: 90px;
+  height: 90px;
+  line-height: 40px;
   text-align: center;
   padding: 0;
   border-radius: 50%;
