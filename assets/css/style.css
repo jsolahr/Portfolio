@@ -1,7 +1,18 @@
-html, body {
+html{
   height:100%;
-  width:100%;
+  box-sizing: border-box;
 }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+} 
 h2 {
   padding-top: 20px;
   font-family: 'Sacramento', cursive;
@@ -119,6 +130,11 @@ footer {
   font-size: 25px;
   padding: 12px;
   text-align: center;
+}
+#foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .btn-circle {
   width: 90px;
